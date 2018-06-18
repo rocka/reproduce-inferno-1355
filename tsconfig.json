@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "ESNext",
+        "module": "ES6",
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "es2017.string",
+            "es2017.object"
+        ],
+        "types": [
+            "inferno"
+        ],
+        "jsx": "preserve",
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "removeComments": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compileOnSave": false
+}
